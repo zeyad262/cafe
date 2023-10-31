@@ -1,0 +1,267 @@
+html, body{
+    font-family:
+    system-ui,
+    -apple-system, /* Firefox supports this but not yet `system-ui` */
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji';
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0 ;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav .nav-link{
+    display: block;
+    padding: 10 10px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: #cc9966;
+    width: fit-content;
+    text-align: end;
+    
+}
+nav .nav-link:hover, .active{
+    border-bottom: 5px solid #cc9966;
+    color: #cc9966;
+}
+.intro{
+    background-image: url(../img/antique-cafe-bg-01.jpg);
+    background-size: cover norepeat;
+    height: 180vh;
+    background-attachment:fixed;
+}
+nav button{
+    display: contents;
+}
+nav button svg{
+    color: #cc9966;
+    font-size: 40px;
+}
+.row{
+    padding-top: 15rem;
+}
+.row .box-1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3rem 6rem;
+    max-width: 400px;
+    margin: auto;
+    font-family: Oswald;
+    
+}
+.row-2 .box-2{
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2.5rem;
+    max-width: 400px;
+    margin: auto;
+    font-family: Raleway;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+}
+.row-2 .box-2 p{
+    line-height: 2;
+}
+.row-2 .btn{
+    background-color:  rgba(0, 0, 0, 0.7);
+    color: #cc9966;
+    padding: 1rem 2rem ;
+    margin: auto;
+    text-align: center;
+}
+.row .box-1 p{
+    color: #cc9966;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    font-weight: 100;
+}
+/* start menu  */
+
+.menu{
+    background-image: url(../img/antique-cafe-bg-02.jpg);
+    background-size: contain norepeat;
+    background-attachment:fixed ;
+    height: auto;
+}
+.menu .col-lg-5{
+    background-color: #544639;
+   
+}
+.menu .box{
+    border-radius: 12px;
+   
+
+}
+.main-title{
+    padding-top: 17rem;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+.main-title h1{
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 15px 40px;
+    color: #544639;
+}
+.menu .box h2{
+    color: #f0c062;
+    font-weight: normal;
+    font-size: 24px;
+}
+.menu .row{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20rem;
+}
+/* end menu  */
+
+/* strat about  */
+.about{
+    background-image: url(../img/antique-cafe-bg-03.jpg);
+    background-size: cover ;
+    background-attachment: fixed;
+     height: 180vh;
+}
+.about .box{
+    max-width: 500px;
+    background-color: rgba(255, 252, 252, 0.7);  
+    border-radius: 12px;
+    float: right;
+    margin: 6rem 1rem 1rem 1rem;
+    padding: 1rem;
+    max-width: 500px;
+}
+@media(max-width:1200px){
+    .about .box{
+        float: none;
+        margin-top: 0;
+        
+    }
+}
+.about .box h1{
+    color: #066;
+    font-weight: normal;
+}
+.about .box p{
+    line-height: 2;
+    font-size: 18px;
+    font-family: raleway;
+}
+.about .box svg{
+    color: white;
+    font-size: 25px;
+    background-color: transparent;
+}
+.about .box .btn{
+    bottom: -5.5rem;
+    left: 0;
+    color: white;
+    background-color: #066;
+    font-size: 24px;
+    font-weight: normal;
+    border-radius: 12px;
+}
+/* end about  */
+
+/* strat contact  */
+
+.contact{
+    background-image: url(../img/antique-cafe-bg-04.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: max-content;
+}
+.contact .content{
+    padding-top: 15rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact .box-r{
+    width: 600px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    float: left;
+    border-radius: 12px;
+    padding: 3rem;
+    padding-bottom: 6rem;
+}
+.contact .box{
+  width: 600px;
+  height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 3rem;
+    float: left;
+    border-radius: 12px;
+}
+.contact .box h1{
+    color: #066;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+.contact .box p{
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 400;
+}
+.contact .box p span{
+    color: #066;
+    cursor: pointer;
+}
+.contact .box .btn{
+    background-color: #066;
+    color: white;
+    padding: 1.5rem 4rem;
+    font-size: 24px;
+    margin-left: auto;
+    margin-bottom: .5rem;
+    
+}
+form input[type="text"], form input[type="email"]{
+    background-color: transparent;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cc9966;
+    
+}
+form{
+    color: white;
+}
+form input[type="text"]::placeholder, form input[type="email"]::placeholder {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+}
+.contact .box-r .btn{
+    color: white;
+    float: right;
+    font-size: 20px;
+    padding-top: 2rem;
+}
+.contact .box-r .btn:hover{
+    color: #f0c062;
+}
+
+/* end contact  */
+footer{
+    background-color: #cc9966;
+    padding: 2rem;
+    color: white;
+    font-size: 24px;
+    height: auto;
+}

@@ -108,7 +108,7 @@ nav button svg{
     border-radius: 20px;
 }
 .main-title h1{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background-color: white;
     padding: 15px 40px;
     color: #544639;
@@ -121,7 +121,8 @@ nav button svg{
 .menu .row{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
 }
 /* end menu  */
 
@@ -131,6 +132,9 @@ nav button svg{
     background-size: cover ;
     background-attachment: fixed;
      height: 180vh;
+}
+.about .container{
+    padding-top: 8rem;
 }
 .about .box{
     max-width: 500px;
